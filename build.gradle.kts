@@ -22,6 +22,9 @@ dependencies {
 
     testImplementation(kotlin("test"))
 
+    implementation("org.springframework.boot:spring-boot-starter-data-redis")
+    implementation("org.redisson:redisson-spring-boot-starter:3.36.0")
+
     // mysql
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     implementation("mysql:mysql-connector-java:8.0.33")
