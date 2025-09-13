@@ -21,4 +21,6 @@ enum class ErrorCode(
     FAILED_TO_FIND_ACCOUNT(-301, "failed to find account"),
     FAILED_MATCH_ACCOUNT_ULID_AND_USER_ULID(-302, "failed match account ulid and user ulid"),
     ACCOUNT_BALANCE_IS_NOT_ZERO(-303, "account balance is not zero"),
+    FAILED_MUTEX_INVOKE(111, "failed mutex invoke"),
+    FAILED_TO_GET_LOCK(112, "failed to get lock"),
 }

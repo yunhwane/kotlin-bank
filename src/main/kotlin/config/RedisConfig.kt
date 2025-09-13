@@ -69,7 +69,7 @@ class RedisConfig {
             .setTimeout(timeout)
 
         if (!password.isNullOrBlank()) {
-            singleServerConfig.setPassword(password)
+            singleServerConfig.password = password
         }
 
         return Redisson.create(config).also {
