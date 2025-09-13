@@ -15,3 +15,18 @@ database:
     username: root
     password: 1234
     driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: ""
+    database: 0
+    timeout: 10000
+  redisson:
+    host: redis://127.0.0.1:6379
+    timeout: 10000
+    password: ""
+
+
+
+
+

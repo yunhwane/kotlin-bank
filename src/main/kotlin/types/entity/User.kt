@@ -31,7 +31,7 @@ data class User(
     val createdAt: LocalDateTime = LocalDateTime.now(),
 
     @Column(name = "updated_at", nullable = false)
-    val updatedAt: LocalDateTime = LocalDateTime.now(),
+    var updatedAt: LocalDateTime = LocalDateTime.now(),
 
     @OneToMany(mappedBy = "user")
     val accounts: MutableList<Account> = mutableListOf()
