@@ -1,0 +1,17 @@
+jwt:
+  secret-key: "lecture"
+  expire-ms: 30
+
+oauth2:
+  providers:
+    github:
+      client-id: Ov23liUYHka9UMszUSzr
+      client-secret: a7b63a8c67b7d71190c91bac40fabe23712525c8
+      redirect-uri: http://localhost:8080/oauth2/callback/github
+
+database:
+  mysql:
+    url: jdbc:mysql://localhost:3306/bank?useSSL=false&serverTimezone=UTC
+    username: root
+    password: 1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
