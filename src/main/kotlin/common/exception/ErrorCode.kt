@@ -23,4 +23,6 @@ enum class ErrorCode(
     ACCOUNT_BALANCE_IS_NOT_ZERO(-303, "account balance is not zero"),
     FAILED_MUTEX_INVOKE(111, "failed mutex invoke"),
     FAILED_TO_GET_LOCK(112, "failed to get lock"),
+    INSUFFICIENT_BALANCE(400, "insufficient balance"),
+    INVALID_TRANSACTION_AMOUNT(401, "invalid transaction amount"),
 }
