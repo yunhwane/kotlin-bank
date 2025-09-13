@@ -17,4 +17,8 @@ enum class ErrorCode(
     TOKEN_IS_INVALID(-104,"token is invalid"),
     TOKEN_EXPIRED(-105,"token is expired"),
     FAILED_TO_INVOKE_IN_LOGGER(-200, "failed to invoke in logger"),
+    FAILED_TO_SAVE_DATA(-300, "failed to save data"),
+    FAILED_TO_FIND_ACCOUNT(-301, "failed to find account"),
+    FAILED_MATCH_ACCOUNT_ULID_AND_USER_ULID(-302, "failed match account ulid and user ulid"),
+    ACCOUNT_BALANCE_IS_NOT_ZERO(-303, "account balance is not zero"),
 }
