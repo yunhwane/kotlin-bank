@@ -27,4 +27,6 @@ enum class ErrorCode(
     ENOUGH_VALUE(-401, "not enough value"),
     VALUE_MUST_NOT_BE_UNDER_ZERO(-402, "value must not be under zero"),
     FAILED_TO_MESSAGE_SEND(-500, "failed to send message to topic: %s"),
+    FAILED_TO_CONNECT_MONGO(-500, "failed to connect mongo db"),
+    FAILED_TO_FIND_MONGO_TEMPLATE(-501, "failed to find mongo template: %s"),
 }
