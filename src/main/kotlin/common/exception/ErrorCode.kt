@@ -23,6 +23,8 @@ enum class ErrorCode(
     ACCOUNT_BALANCE_IS_NOT_ZERO(-303, "account balance is not zero"),
     FAILED_MUTEX_INVOKE(111, "failed mutex invoke"),
     FAILED_TO_GET_LOCK(112, "failed to get lock"),
-    INSUFFICIENT_BALANCE(400, "insufficient balance"),
-    INVALID_TRANSACTION_AMOUNT(401, "invalid transaction amount"),
+    MISS_MATCH_ACOUNT_ULID_AND_USER_ULID(-400, "miss match acount ulid and user ulid"),
+    ENOUGH_VALUE(-401, "not enough value"),
+    VALUE_MUST_NOT_BE_UNDER_ZERO(-402, "value must not be under zero"),
+    FAILED_TO_MESSAGE_SEND(-500, "failed to send message to topic: %s"),
 }
