@@ -4,6 +4,7 @@ import org.example.domains.transactions.model.DepositRequest
 import org.example.domains.transactions.model.DepositResponse
 import org.example.domains.transactions.model.TransferRequest
 import org.example.domains.transactions.model.TransferResponse
+import org.example.domains.transcations.service.TransactionService
 import org.example.types.dto.Response
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody
